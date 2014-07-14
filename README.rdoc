@@ -1,28 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The other day, I saw a really awful website that doesn't reflect the quality or professional standard of its company.  I worked on some <a href="github.com/HannahCRW/GWL_website">html/css only design pages</a>, and am now fitting it together as a Ruby on Rails app in order to have client login pages and to enable news posts and comments.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+July 2014

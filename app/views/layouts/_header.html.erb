@@ -5,21 +5,15 @@
 
 	<section id="nav_buttons">
 		<div id="about-button">
-			<button id="about">
-				ABOUT
-			</button>
+			<%= button_to "ABOUT", about_path, method: "get" %>
 		</div>
 
 		<div id="contact-button">
-			<button id="contact">
-				CONTACT
-			</button>
+			<%= button_to "CONTACT", contact_path, method: "get" %>
 		</div>
 
 		<div id="news-button">
-			<button id="news">
-				NEWS
-			</button>
+			<%= button_to "NEWS", news_path, method: "get" %>
 		</div>
 
 		<div id="client-area-button">
