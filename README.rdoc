@@ -1,6 +1,6 @@
 == README
 
-The other day, I saw a really awful website that doesn't reflect the quality or professional standard of its company.  I worked on some <a href="github.com/HannahCRW/GWL_website">html/css only design pages</a>, and am now fitting it together as a Ruby on Rails app in order to have client login pages and to enable news posts and comments.
+The other day, I saw a really awful website that doesn't reflect the quality or professional standard of its company.  I worked on some {html/css only design pages}[http://www.github.com/HannahCRW/GWL_website], and am now fitting it together as a Ruby on Rails app in order to have client login pages and to enable news posts and comments.
 
 
 July 2014
