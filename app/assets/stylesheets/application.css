@@ -56,8 +56,7 @@ nav div {
 	margin-top: 7px;
 	margin-left: 12%;
 	height: 50px;
-	width: 90%;
-	min-width: 75px;
+	min-width: 100px;
 	border-bottom-left-radius: 30px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
@@ -79,8 +78,6 @@ nav div {
 	}
 
 #colour_bar1 {
-	margin-top: 2px;
-	margin-bottom: 2px;
 	height: 10px;
 	width: 98%;
 	margin-left: 1%;
@@ -99,7 +96,7 @@ nav div {
 #rainbow_bar {
 	height: 10px;
 	width: 98%;
-	margin-top: -5px;
+	top: 0px;
 	margin-left: 1%;
 }
 
