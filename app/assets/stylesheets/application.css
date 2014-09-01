@@ -87,6 +87,13 @@ nav div {
 	background-color: #020532;
 }
 
+#rainbow_bar {
+	height: 10px;
+	width: 98%;
+	margin-top: 5px;
+	margin-left: 1%;
+}
+
 #top_text {
 	width: 75%;
 	margin-left: 13%;
