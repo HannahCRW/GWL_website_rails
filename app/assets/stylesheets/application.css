@@ -13,7 +13,7 @@ nav {
 	width: 98%;
 	color: white;
 	height: 115px;
-	background-color: #c3d9ff;
+	background-color: #b0d2ee;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
@@ -49,13 +49,13 @@ nav div {
 	padding: 5px;
 }
 
-#nav_buttons button {
+.button {
 	border-color: none;
 	border: none;
 	box-shadow: none;
 	margin-top: 7px;
 	margin-left: 12%;
-	height: 47%;
+	height: 50px;
 	width: 90%;
 	min-width: 75px;
 	border-bottom-left-radius: 30px;
@@ -63,20 +63,29 @@ nav div {
 	border-top-left-radius: 5px;
 	border-bottom-right-radius: 30px;
 	color: white;
-	background-color: #78a1e6;
+	background-color: #3090df;
 	-webkit-transition: background 1s;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 15px;
 	text-align: center;
 }
-	#nav_buttons button:hover {
-		background-color: #020532;
+	.button:hover {
+		background-color: #162d7d;
 		-webkit-transition: background 0.5s;
 	}
 
-	#nav_buttons button:active {
-		background-color: #020532;
+	.button:active {
+		background-color: #162d7d;
 	}
+
+#colour_bar1 {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 10px;
+	width: 98%;
+	margin-left: 1%;
+	background-color: #b0d2ee;
+}
 
 #colour_bar {
 	margin-top: 5px;
@@ -84,13 +93,13 @@ nav div {
 	height: 10px;
 	width: 98%;
 	margin-left: 1%;
-	background-color: #020532;
+	background-color: #162d7d;
 }
 
 #rainbow_bar {
 	height: 10px;
 	width: 98%;
-	margin-top: 5px;
+	margin-top: -5px;
 	margin-left: 1%;
 }
 

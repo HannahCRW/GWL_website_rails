@@ -8,23 +8,24 @@
 
 	<section id="nav_buttons">
 		<div id="about-button">
-			<%= button_to "ABOUT", about_path, method: "get" %>
+			<%= button_to "ABOUT", about_path, method: "get", class: "button" %>
 		</div>
 
 		<div id="contact-button">
-			<%= button_to "CONTACT", contact_path, method: "get" %>
+			<%= button_to "CONTACT", contact_path, method: "get", class: "button" %>
 		</div>
 
 		<div id="news-button">
-			<%= button_to "NEWS", news_path, method: "get" %>
+			<%= button_to "NEWS", news_path, method: "get", class: "button" %>
 		</div>
 
-		<div id="client-area-button">
-			<button id="client_area">
-				LOGIN
-			</button>
+		<div id="login-button">
+			<%= button_to "LOGIN", about_path, method: "get", class: "button" %>
 		</div>
 	</section>
+
 </nav>
 <%= image_tag "gwlrainbow.png", id: "rainbow_bar" %>
+<section id="colour_bar1">
+</section>
 </section>
