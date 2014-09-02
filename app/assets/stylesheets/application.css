@@ -13,7 +13,7 @@ nav {
 	width: 98%;
 	color: white;
 	height: 115px;
-	background-color: #abbeff;
+	background-color: #ccdbff;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
@@ -26,7 +26,8 @@ nav {
 }
 
 #logo_img {
-	width: 100%;
+	width: 90%;
+	margin-left: -25px;
 }
 
 nav div {
@@ -53,7 +54,7 @@ nav div {
 .button {
 	border-color: none;
 	border: none;
-	box-shadow: none;
+	box-shadow: none
 	margin-top: 7px;
 	margin-left: 12%;
 	height: 80px;
@@ -85,15 +86,17 @@ nav div {
 	height: 5px;
 	width: 98%;
 	margin-left: 1%;
-	margin-top: 3px;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	float: left;
 }
 
 #colour_bar1 {
 	height: 10px;
 	width: 98%;
 	margin-left: 1%;
-	background-color: #abbeff;
-	margin-top: 0;
+	background-color: #ccdbff;
+	float: left;
 }
 
 #colour_bar {
@@ -114,16 +117,13 @@ nav div {
 	font-family: 'Michroma', sans-serif;
 }
 
-#eye_img_div {
+#gwl_eye {
 	width: 30%;
 	margin: 0;
 	float: left;
 	display: inline-block;
-}
-
-#eye_img {
-	width: 300px;
 	margin-top: 60px;
+	margin-left: 10%;
 }
 
 .info_text {
@@ -197,7 +197,7 @@ nav div {
 	margin-bottom: 10px;
 	padding: 10px;
 	color: white;
-	background-color: #abbeff;
+	background-color: #ccdbff;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	font-family: 'PT Sans Caption', sans-serif;
