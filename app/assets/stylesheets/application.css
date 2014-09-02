@@ -9,11 +9,12 @@ body {
 nav {
 	margin-left:1%;
 	margin-top: 10px;
+	margin-bottom: -20px;
 	padding:0;
 	width: 98%;
 	color: white;
 	height: 115px;
-	background-color: #b0d2ee;
+	background-color: #abbeff;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
 }
@@ -56,13 +57,14 @@ nav div {
 	margin-top: 7px;
 	margin-left: 12%;
 	height: 50px;
+	width: 95%;
 	min-width: 100px;
 	border-bottom-left-radius: 30px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
 	border-bottom-right-radius: 30px;
-	color: white;
-	background-color: #3090df;
+	color: #162d7d;
+	background-color: white;
 	-webkit-transition: background 1s;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 15px;
@@ -70,6 +72,7 @@ nav div {
 }
 	.button:hover {
 		background-color: #162d7d;
+		color: white;
 		-webkit-transition: background 0.5s;
 	}
 
@@ -77,11 +80,18 @@ nav div {
 		background-color: #162d7d;
 	}
 
+#rainbow_bar {
+	height: 5px;
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 3px;
+}
+
 #colour_bar1 {
 	height: 10px;
 	width: 98%;
 	margin-left: 1%;
-	background-color: #b0d2ee;
+	background-color: #abbeff;
 }
 
 #colour_bar {
@@ -91,13 +101,6 @@ nav div {
 	width: 98%;
 	margin-left: 1%;
 	background-color: #162d7d;
-}
-
-#rainbow_bar {
-	height: 10px;
-	width: 98%;
-	top: 0px;
-	margin-left: 1%;
 }
 
 #top_text {
@@ -192,7 +195,7 @@ nav div {
 	margin-bottom: 10px;
 	padding: 10px;
 	color: white;
-	background-color: #c3d9ff;
+	background-color: #abbeff;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	font-family: 'PT Sans Caption', sans-serif;
