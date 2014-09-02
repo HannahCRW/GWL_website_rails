@@ -67,9 +67,9 @@ nav div {
 	color: #162d7d;
 	background-color: white;
 	-webkit-transition: background 1s;
-	font-family: 'PT Sans Caption', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
-	font-weight: bold;
+	font-weight: normal;
 	text-align: center;
 }
 	.button:hover {
@@ -109,12 +109,14 @@ nav div {
 }
 
 #top_text {
-	width: 75%;
-	margin-left: 13%;
-	margin-top: 50px;
+	width: 40%;
+	margin-top: 75px;
 	margin-bottom: 25px;
 	display: inline-block;
-	font-family: 'Michroma', sans-serif;
+	color: #162d7d;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 23px;
+	line-height: 175%;
 }
 
 #gwl_eye {
@@ -123,7 +125,7 @@ nav div {
 	float: left;
 	display: inline-block;
 	margin-top: 60px;
-	margin-left: 10%;
+	margin-left: 14%;
 }
 
 .info_text {
@@ -207,6 +209,7 @@ nav div {
 
 #footer div {
 	width: 30%;
+	font-family: 'Quicksand', sans-serif;
 }
 	#left_footer {
 		float: left;
